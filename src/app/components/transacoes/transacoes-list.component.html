@@ -1,0 +1,8 @@
+<div>
+    <h2>Lista de Transações</h2>
+    <ul>
+      <li *ngFor="let transacao of transacoes">
+        Tipo: {{ transacao.tipo_transacao }} - Valor: {{ transacao.valor }} - Data: {{ transacao.data_hora }}
+      </li>
+    </ul>
+  </div>
